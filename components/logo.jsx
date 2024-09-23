@@ -9,7 +9,7 @@ const Logo = () => {
         width={54}
         height={54}
         priority
-        alt="logo"
+        alt="Logo"
         style={{ objectFit: "contain" }} // Agregado para asegurar que la imagen se ajuste correctamente
       />
     </Link>
