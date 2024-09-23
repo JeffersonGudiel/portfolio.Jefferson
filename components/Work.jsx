@@ -10,7 +10,7 @@ import { color } from "framer-motion";
 
 const projectData = [
   {
-    image: "/work/drawing app.webp",
+    image: "/work/drawing-app.webp",
     name: "University blog",
     Description:
       "Proyecto para universidad Galileo, con interacción de usuarios y administradores para gestionar actualizaciones, cursos y eventos.",
@@ -37,7 +37,7 @@ const projectData = [
     ],
   },
   {
-    image: "/work/drawing app.webp",
+    image: "/work/drawing-app.webp",
     name: "drawing app",
     Description:
       "Aplicación para dibujar en tiempo real, con diferentes colores y tamaños de pincel.",
@@ -69,7 +69,7 @@ const projectData = [
     ],
   },
   {
-    image: "/work/drawing app.webp",
+    image: "/work/drawing-app.webp",
     name: "Project 3",
     Description: "This is a description of project 3",
     link: "/",
@@ -94,7 +94,7 @@ const projectData = [
     ],
   },
   {
-    image: "/work/drawing app.webp",
+    image: "/work/drawing-app.webp",
     name: "Project 3",
     Description: "This is a description of project 3",
     link: "/",

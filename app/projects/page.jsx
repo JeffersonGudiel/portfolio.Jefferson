@@ -5,7 +5,7 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
-    image: "/work/drawing app.webp",
+    image: "/work/drawing-app.webp",
     name: "University blog",
     Description:
       "Proyecto para universidad, con interacción de usuarios y administradores para gestionar actualizaciones, cursos y eventos.",
@@ -33,7 +33,7 @@ const projectData = [
     additionalCategory: "Full Stack",
   },
   {
-    image: "/work/drawing app.webp",
+    image: "/work/drawing-app.webp",
     name: "Drawing app",
     Description:
       "Aplicación para dibujar en tiempo real, con diferentes colores y tamaños de pincel.",
@@ -65,7 +65,7 @@ const projectData = [
     additionalCategory: "Frontend",
   },
   {
-    image: "/work/drawing app.webp",
+    image: "/work/drawing-app.webp",
     name: "Project 2",
     Description: "This is a description of project 2",
     link: "/",
