@@ -5,7 +5,7 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
-    image: "/Work/drawing-app.webp",
+    image: "/Work/blog-app.webp",
     name: "University blog",
     Description:
       "Proyecto para universidad, con interacción de usuarios y administradores para gestionar actualizaciones, cursos y eventos.",

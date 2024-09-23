@@ -10,7 +10,7 @@ import { color } from "framer-motion";
 
 const projectData = [
   {
-    image: "/Work/drawing-app.webp",
+    image: "/Work/blog-app.webp",
     name: "University blog",
     Description:
       "Proyecto para universidad Galileo, con interacción de usuarios y administradores para gestionar actualizaciones, cursos y eventos.",
