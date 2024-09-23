@@ -142,7 +142,7 @@ const Work = () => {
         {/* {slider} */}
         <div className="flex justify-center">
           <Swiper
-            className="h-[510px] xl:h-[550px]"
+            className="h-[590px] xl:h-[570px]"
             slidesPerView={1}
             breakpoints={{
               640: {
