@@ -1,9 +1,9 @@
-import { Sheet, SheetContent, SheetTrigger } from "./ui/Sheet"; 
+import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 
 import { AlignJustify } from "lucide-react";
 
 import Nav from "./Nav";
-import Logo from "./Logo";
+import Logo from "./logo";
 
 import Socials from "./Socials";
 

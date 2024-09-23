@@ -7,7 +7,7 @@ const __dirname = path.dirname(__filename);
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   webpack: (config) => {
-    config.resolve.alias["@ui"] = path.join(__dirname, "ruta/a/ui"); // Ajusta la ruta según sea necesario
+
     return config;
   },
 };
