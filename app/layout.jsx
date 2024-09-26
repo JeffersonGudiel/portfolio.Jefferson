@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <body className={outfit.className}>
         <div className="background-gradient"></div>
 
-        <ThemeProvider attribute="class" defaultTheme="dark">
+        <ThemeProvider attribute="class" defaultTheme="light">
           <Header />
           {children}
           <Footer />
