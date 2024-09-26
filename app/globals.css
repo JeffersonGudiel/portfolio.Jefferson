@@ -120,3 +120,6 @@
   @apply bg-primary;
 }
 
+html, body {
+  overflow-x: hidden; /* Evita el desplazamiento horizontal de la página */
+}
