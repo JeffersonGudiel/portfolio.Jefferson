@@ -8,7 +8,7 @@ const projectData = [
     image: "/Work/blog-app.webp",
     name: "University blog",
     Description:
-      "Proyecto para universidad Galileo, con interacción de usuarios y administradores para gestionar actualizaciones, cursos y eventos.",
+      "Desarrollé un software de blog para la Universidad Galileo, que facilita el acceso a eventos, cursos y carreras. El proyecto incluye interacción de usuarios y administradores para gestionar actualizaciones, y acumula fondos a través de interacciones para apoyar a los estudiantes en sus oportunidades educativas.",
     link: "https://blog-universidad.vercel.app/",
     github: "https://github.com/JeffersonGudiel/blog-universidad",
     altText:
