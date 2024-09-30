@@ -74,7 +74,7 @@ const projectData = [
     image: "/Work/drawing-app.webp",
     name: "Drawing app",
     Description:
-      "Aplicación para dibujar en tiempo real, con diferentes colores y tamaños de pincel.",
+      "Creé una aplicación de dibujo en tiempo real, ahora usada en una escuela de bajos recursos y por psicólogos, ayudando a los estudiantes a expresarse creativamente y mejorar su bienestar emocional.",
     link: "https://drawing-app-livid-ten.vercel.app/",
     github: "https://github.com/JeffersonGudiel/drawing-app",
     altText: "Screenshot of Project 1, built with React JS",
@@ -93,6 +93,28 @@ const projectData = [
         path: "/about/front-end/tailwindcss.svg",
         color: "bg-gradient-to-r from-cyan-400 to-cyan-600",
         category: "Tailwind CSS",
+      },
+      {
+        path: "/about/front-end/javascript.svg",
+        color: "bg-gradient-to-r from-yellow-400 to-yellow-600",
+        category: "JavaScript",
+      },
+    ],
+    additionalCategory: "Frontend",
+  },
+  {
+    image: "/Work/typing-game.webp",
+    name: "Typing game",
+    Description:
+      "Juego de mecanografía para mejorar velocidad y precisión, desafiando a los usuarios a completar frases dentro de un límite de tiempo, con dificultad creciente para desarrollar habilidades de escritura rápida y precisa.",
+    link: "https://typing-game-oficial.vercel.app/",
+    github: "https://github.com/JeffersonGudiel/typing-Game",
+    altText: "Screenshot of Typing game, built with JAVASCRIPT and HTML",
+    imgPaths: [
+      {
+        path: "/about/front-end/html5.svg",
+        color: "bg-gradient-to-r from-orange-400 to-orange-600",
+        category: "HTML",
       },
       {
         path: "/about/front-end/javascript.svg",
