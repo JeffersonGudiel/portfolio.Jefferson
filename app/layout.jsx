@@ -9,8 +9,8 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio Jefferson -  Desarrollador y programador Full - Stack",
-  description: "Contrata a Jefferson para tu próximo proyecto",
+  title: "Portfolio Jefferson - Full-Stack Developer and Programmer",
+  description: "Hire Jefferson for your next project",
 };
 
 export default function RootLayout({ children }) {
