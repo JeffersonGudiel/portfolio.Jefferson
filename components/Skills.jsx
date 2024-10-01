@@ -60,7 +60,7 @@ const Skills = () => {
       ],
     },
     {
-      title: "Back-end",
+      title: "Back-End",
       data: [
         {
           name: "Node.js",
@@ -207,7 +207,7 @@ const Skills = () => {
                 className={`w-full max-w-[500px] bg-gradient-to-r ${
                   title === "Front-End"
                     ? "from-white/20 to-gray-200/80 dark:from-gray-900/20 dark:to-gray-800/50"
-                    : title === "Back-end"
+                    : title === "Back-End"
                     ? "from-white/20 to-gray-200/80 dark:from-gray-900/20 dark:to-gray-800/50"
                     : title === "database"
                     ? "from-white/20 to-gray-200/80 dark:from-gray-900/20 dark:to-gray-800/50"
