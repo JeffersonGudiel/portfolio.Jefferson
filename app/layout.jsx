@@ -14,7 +14,7 @@ export const metadata = {
   description:
     "Hire Jefferson for your next project as a Full-Stack Developer and Programmer",
   openGraph: {
-    title: "Jefferson Gudiel Portfolio",
+    title: "Jefferson Gudiel - Full-Stack Dev",
     description:
       "Hire Jefferson for your next project as a Full-Stack Developer and Programmer",
     type: "website",
