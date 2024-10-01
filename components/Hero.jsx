@@ -30,7 +30,7 @@ const Hero = () => {
                       className="inline-flex items-center justify-center w-full px-3 py-1 text-sm
                    text-dark-800 bg-green-150 rounded-full cursor-pointer dark:bg-gray-800
                    dark:text-white/80 backdrop-blur-3xl whitespace-nowrap">
-                      Disponible para trabajar
+                      Available to work
                     </div>
                   </span>
                 </div>
@@ -39,15 +39,15 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
               Full Stack Developer
             </div>
-            <h1 className="h1 mb-4 -mt-4">Hey, soy Jefferson Gudiel</h1>
+            <h1 className="h1 mb-4 -mt-4">Hey, I'm Jefferson Gudiel</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0 ">
-              + 6 años de experiencia como{" "}
+              + 6 years of experience as{" "}
               <strong className="text-yellow-600 dark:text-yellow-100 font-normal">
-                Desarrollador Full Stack especializado en Frontend
+                Full Stack Developer specialized in Frontend
               </strong>
-              . Experto en crear interfaces de usuario optimizadas y
-              funcionales, combinando un profundo conocimiento técnico con un
-              enfoque en el rendimiento y la experiencia del usuario.
+              . Expert in creating optimized and functional user interfaces,
+              combining deep technical knowledge with a focus on performance and
+              user experience.
             </p>
 
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-6">
