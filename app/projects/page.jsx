@@ -71,6 +71,49 @@ const projectData = [
     additionalCategory: "Full Stack",
   },
   {
+    image: "/Work/task-platform.webp",
+    name: "Task platform",
+    Description:
+      "Plataforma de tareas para empresas, con autenticación y roles de usuario, permite a los empleados gestionar tareas y proyectos de forma eficiente.",
+    link: "https://definite-herring-65.accounts.dev/sign-in",
+    github: "https://github.com/JeffersonGudiel/task-platform",
+    altText:
+      " Screenshot of Task platform, built with NEXT JS, TYPESCRIPT, REACT JS, TAILWIND CSS, PRISMA, MONGODB",
+    imgPaths: [
+      {
+        path: "/about/front-end/nextjs_icon_dark.svg",
+        color: "bg-gradient-to-r from-gray-800 to-gray-900",
+        category: "Next.js",
+      },
+      {
+        path: "/about/front-end/tailwindcss.svg",
+        color: "bg-gradient-to-r from-cyan-400 to-cyan-600",
+        category: "Tailwind CSS",
+      },
+      {
+        path: "/about/front-end/react.svg",
+        color: "bg-gradient-to-r from-sky-400 to-sky-600",
+        category: "React JS",
+      },
+      {
+        path: "/about/front-end/typescript.svg",
+        color: "bg-gradient-to-r from-blue-400 to-blue-600",
+        category: "TypeScript",
+      },
+      {
+        path: "about/Back-end/prisma.svg",
+        color: "bg-gradient-to-r from-slate-400 to-slate-600",
+        category: "Prisma",
+      },
+      {
+        path: "/about/database/mongodb.svg",
+        color: "bg-gradient-to-r from-green-600 to-green-800",
+        category: "MongoDB",
+      },
+    ],
+    additionalCategory: "Full Stack",
+  },
+  {
     image: "/Work/drawing-app.webp",
     name: "Drawing app",
     Description:
