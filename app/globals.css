@@ -76,8 +76,12 @@
   );
 }
 /* styles/globals.css */
-.text-light { color: #ffffff; } /* Para fondos oscuros */
-.text-dark { color: #000000; }  /* Para fondos claros */
+.text-light {
+  color: #ffffff;
+} /* Para fondos oscuros */
+.text-dark {
+  color: #000000;
+} /* Para fondos claros */
 
 @layer base {
   * {
@@ -123,4 +127,3 @@
 body {
   overflow-x: hidden; /* Evita el desplazamiento horizontal de la página */
 }
-
