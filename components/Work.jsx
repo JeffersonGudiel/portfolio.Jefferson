@@ -39,7 +39,7 @@ const projectData = [
     image: "/Work/drawing-app.webp",
     name: "drawing app",
     Description:
-      "A real-time drawing app is now used in a low-income school and by psychologists, helping students express themselves creatively and improve their emotional well-being..",
+      "A real-time drawing app is now used in a low-income school and by psychologists, helping students express themselves creatively and improve their emotional well-being.",
     link: "https://drawing-app-livid-ten.vercel.app/",
     github: "https://github.com/JeffersonGudiel/drawing-app",
     altText:

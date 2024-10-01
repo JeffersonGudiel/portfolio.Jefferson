@@ -8,7 +8,7 @@ const projectData = [
     image: "/Work/blog-app.webp",
     name: "University blog",
     Description:
-      "Desarrollé un software de blog para la Universidad Galileo, que facilita el acceso a eventos, cursos y carreras. El proyecto incluye interacción de usuarios y administradores para gestionar actualizaciones, y acumula fondos a través de interacciones para apoyar a los estudiantes en sus oportunidades educativas.",
+      "Blogging software for Galileo University, facilitating access to events, courses, and careers. The project includes interaction between users and administrators to manage updates and accumulate funds through interactions to support students in their educational opportunities.",
     link: "https://blog-universidad.vercel.app/",
     github: "https://github.com/JeffersonGudiel/blog-universidad",
     altText:
@@ -36,7 +36,7 @@ const projectData = [
     image: "/Work/weather-app.webp",
     name: "Weather app",
     Description:
-      "Aplicación creada para una empresa de viajes, permite consultar el clima mundial con datos como temperatura y pronóstico, facilitando la planificación de sus viajes.",
+      "An application created for a travel company allows you to check the world's weather with data such as temperature and forecast, making travel planning easier.",
     link: "https://blog-universidad.vercel.app/",
     github: "https://github.com/JeffersonGudiel/blog-universidad",
     altText:
@@ -74,7 +74,7 @@ const projectData = [
     image: "/Work/task-platform.webp",
     name: "Task platform",
     Description:
-      "Plataforma de tareas para empresas, con autenticación y roles de usuario, permite a los empleados gestionar tareas y proyectos de forma eficiente.",
+      "Task platform for enterprises, with authentication and user roles, allows employees to manage tasks and projects efficiently.",
     link: "https://definite-herring-65.accounts.dev/sign-in",
     github: "https://github.com/JeffersonGudiel/task-platform",
     altText:
@@ -117,7 +117,7 @@ const projectData = [
     image: "/Work/drawing-app.webp",
     name: "Drawing app",
     Description:
-      "Creé una aplicación de dibujo en tiempo real, ahora usada en una escuela de bajos recursos y por psicólogos, ayudando a los estudiantes a expresarse creativamente y mejorar su bienestar emocional.",
+      "A real-time drawing app is now used in a low-income school and by psychologists, helping students express themselves creatively and improve their emotional well-being.",
     link: "https://drawing-app-livid-ten.vercel.app/",
     github: "https://github.com/JeffersonGudiel/drawing-app",
     altText: "Screenshot of Project 1, built with React JS",
@@ -149,7 +149,7 @@ const projectData = [
     image: "/Work/typing-game.webp",
     name: "Typing game",
     Description:
-      "Juego de mecanografía para mejorar velocidad y precisión, desafiando a los usuarios a completar frases dentro de un límite de tiempo, con dificultad creciente para desarrollar habilidades de escritura rápida y precisa.",
+      "Typing game to improve speed and accuracy, challenging users to complete sentences within a time limit, with increasing difficulty to develop fast and accurate typing skills.",
     link: "https://typing-game-oficial.vercel.app/",
     github: "https://github.com/JeffersonGudiel/typing-Game",
     altText: "Screenshot of Typing game, built with JAVASCRIPT and HTML",
