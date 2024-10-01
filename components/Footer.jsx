@@ -10,7 +10,7 @@ const Footer = () => {
             IconsStyles="text-primary dark-text-white/70 text-[20px] dark:text-primary"
           />
           <div className="text-muted-foreground">
-            Copyright &copy; Jefferson. Casi todos los derechos reservados.
+            Copyright &copy; Jefferson. Almost all rights reserved.
           </div>
         </div>
       </div>
