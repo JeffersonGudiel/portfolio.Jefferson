@@ -6,14 +6,13 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import ProjectCard from "@/components/ProjectCard";
-import { color } from "framer-motion";
 
 const projectData = [
   {
     image: "/Work/blog-app.webp",
     name: "University blog",
     Description:
-      " Desarrollé un software de blog para la Universidad Galileo, que facilita el acceso a eventos, cursos y carreras. El proyecto incluye interacción de usuarios y administradores para gestionar actualizaciones, y acumula fondos a través de interacciones para apoyar a los estudiantes en sus oportunidades educativas. ",
+      "Blogging software for Galileo University, facilitating access to events, courses, and careers. The project includes interaction between users and administrators to manage updates and accumulate funds through interactions to support students in their educational opportunities.",
     link: "https://blog-universidad.vercel.app/",
     github: "https://github.com/JeffersonGudiel/blog-universidad",
     altText:
@@ -40,7 +39,7 @@ const projectData = [
     image: "/Work/drawing-app.webp",
     name: "drawing app",
     Description:
-      "Creé una aplicación de dibujo en tiempo real, ahora usada en una escuela de bajos recursos y por psicólogos, ayudando a los estudiantes a expresarse creativamente y mejorar su bienestar emocional.",
+      "A real-time drawing app is now used in a low-income school and by psychologists, helping students express themselves creatively and improve their emotional well-being..",
     link: "https://drawing-app-livid-ten.vercel.app/",
     github: "https://github.com/JeffersonGudiel/drawing-app",
     altText:
@@ -72,10 +71,10 @@ const projectData = [
     image: "/Work/weather-app.webp",
     name: "Weather app",
     Description:
-      " Aplicación creada para una empresa de viajes, permite consultar el clima mundial con datos como temperatura y pronóstico, facilitando la planificación de sus viajes.",
+      "An application created for a travel company allows you to check the world's weather with data such as temperature and forecast, making travel planning easier.",
     link: "https://weather-app-oficial.vercel.app/",
     github: "https://github.com/JeffersonGudiel/Weather-app",
-    altText: "Screenshot of Project 3, built with React JS",
+    altText: "Screenshot of Weather app, built with Next.js, Tailwind CSS",
     imgPaths: [
       {
         path: "/about/front-end/typescript.svg",
@@ -108,7 +107,7 @@ const projectData = [
     image: "/Work/task-platform.webp",
     name: "Task platform",
     Description:
-      "Plataforma de tareas para empresas, con autenticación y roles de usuario, permite a los empleados gestionar tareas y proyectos de forma eficiente.",
+      "Task platform for enterprises, with authentication and user roles, allows employees to manage tasks and projects efficiently.",
     link: "https://definite-herring-65.accounts.dev/sign-in",
     github: "https://github.com/JeffersonGudiel/task-platform",
     altText:
@@ -155,16 +154,16 @@ const Work = () => {
         {/* {text} */}
         <div className="text-center mb-12 xl:mb-6 xl:h-[300px] flex flex-col justify-center items-center">
           <h2 className=" text-center font-semibold text-[42px] mt-5 text-theme-text-primary dark:text-theme-text-primary-dark md:text-[32px] md:mt-3">
-            🌐 Proyectos Empresariales y Más Destacados 🌐
+            🌐Business Projects and More Highlights🌐
           </h2>
           <p className="subtitle mb-8 text-xl font-semibold text-gray-900 dark:text-gray-100 bg-gradient-to-r from-pink-400 to-blue-400 bg-clip-text text-transparent">
-            🚀 Si te ha gustado lo que has visto hasta ahora, te invito a
-            explorar mi portafolio completo. Allí encontrarás una variedad de
-            proyectos innovadores y creativos que he desarrollado, cada uno con
-            su propio conjunto único de desafíos y soluciones.
+            If you liked what you've seen so far, I invite you to explore my
+            full portfolio. There you'll find a variety of innovative and
+            creative projects I've developed, each with its own unique set of
+            challenges and solutions.🚀
           </p>
           <Link href="/projects">
-            <Button>👉 Explora mis proyectos 👈</Button>
+            <Button>👉Explore my projects👈</Button>
           </Link>
         </div>
         {/* {slider} */}
