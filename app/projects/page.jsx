@@ -214,10 +214,10 @@ const Projects = () => {
     <section className="min-h-screen pt-12">
       <div className="container mx-auto">
         <h2 className="section-title mb-8 xl:mb-8 text-center mx-auto">
-          🌟Proyectos Empresariales y Más Destacados 🌟
+          🌟Business Projects and Highlights🌟
         </h2>
         <p className="text-3xl mb-8 xl:mb-12 text-center mx-auto">
-          🫰Proyectos Empresariales y Más Destacados🫰
+          🫰Explore all my projects🫰
         </p>
         <Tabs defaultValue={category} className="mb-24 xl:mb-48">
           <TabsList className="w-full grid h-full md:grid-cols-4 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none">
