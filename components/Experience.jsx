@@ -5,48 +5,48 @@ const qualificationData = [
     title: "Experiencia",
     data: [
       {
-        company: "Informática - BLP abogados S.A",
+        company: "IT - BLP abogados S.A",
         role: "Lead FrontEnd Architect",
-        years: "Jun. 2020 - Ene. 2021",
+        years: "Jun. 2020 - Jan. 2021",
         description: `
-    Desarrollé una plataforma unificada de componentes y herramientas para acelerar la entrega de productos en la empresa.
-    Implementé CI/CD, reduciendo los tiempos de despliegue en más del 80%.
-    Lideré mejoras de rendimiento web en productos como Shopify, introduciendo mejores prácticas y estrategias basadas en DataDog.
-    Construí una herramienta de gestión de cookies para cumplir con las leyes de consentimiento de usuarios.
-    Introduje soluciones innovadoras como Ship/Show/Ask en GitHub, el uso de Rust para acelerar compilaciones, y optimizaciones en AWS para mejorar la escalabilidad.
+    I developed a unified platform of components and tools to accelerate product delivery in the enterprise.
+I implemented CI/CD, reducing deployment times by over 80%.
+I led web performance improvements in products like Shopify, introducing best practices and strategies based on DataDog.
+I built a cookie management tool to comply with user consent laws.
+I introduced innovative solutions like Ship/Show/Ask on GitHub, the use of Rust to speed up builds, and optimizations on AWS to improve scalability.
         `,
       },
       {
         company: "Freelancer",
         role: "Project Manager",
-        years: "ago. 2022 - Ene. 2023",
+        years: "Aug. 2022 - Jan. 2023",
         description: `
-    Experiencia destacada en dirección y gestión de proyectos, asegurando la entrega de soluciones optimizadas que cumplen con los objetivos del cliente.
-    Experto en asesorar a equipos y empresas en la elección de tecnologías y arquitecturas adecuadas para sus necesidades y objetivos a largo plazo.
+    Distinguished experience in project management, ensuring the delivery of optimized solutions that meet client objectives.
+Expert in advising teams and companies in choosing the right technologies and architectures for their needs and long-term objectives.
   `,
       },
 
       {
         company: "Freelancer",
-        role: "Desarrollador FullStack",
-        years: "Abr. 2020 - presente",
+        role: "Full-Stack Developer",
+        years: "Apr. 2020 - present",
         description: `
-    Experto en crear interfaces intuitivas y mejorar la usabilidad en aplicaciones web.
-    Experiencia en diseñar y desarrollar APIs robustas para una comunicación eficiente entre frontend y backend.
-    Especialista en asegurar aplicaciones web con medidas de seguridad avanzadas y control granular de permisos.
-    Experiencia en optimizar el rendimiento y la escalabilidad de aplicaciones para manejar altas cargas de usuarios y datos.
+    Expert in creating intuitive interfaces and improving usability in web applications.
+Experience in designing and developing robust APIs for efficient communication between frontend and backend.
+Specialist in securing web applications with advanced security measures and granular permission control.
+Experience in optimizing application performance and scalability to handle high user and data loads.
   `,
       },
 
       {
         company: "Freelancer",
-        role: "Desarrollador FrontEnd",
-        years: "Ene. 2019 - Mar. 2020",
+        role: "Front-End Developer",
+        years: "Jan. 2019 - Mar. 2020",
         description: `
-    Creación y optimización de interfaces de usuario intuitivas y accesibles.
-    Experto en diseño responsivo para garantizar usabilidad en múltiples dispositivos.
-    Colaboración con equipos backend para integrar APIs y servicios.
-    Implementación de técnicas para mejorar la velocidad y rendimiento de aplicaciones web.
+   Creation and optimization of intuitive and accessible user interfaces.
+Responsive design expert to ensure usability on multiple devices.
+Collaboration with backend teams to integrate APIs and services.
+Implementation of techniques to improve the speed and performance of web applications.
   `,
       },
     ],
@@ -62,7 +62,7 @@ const Experience = () => {
     <section className="section undefined scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl py-2 px-4">
       <h2 className="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white">
         <Briefcase className="size-8" />
-        Experiencia laboral
+        Work experience
       </h2>
       <ol className="relative mt-16">
         {getData(qualificationData, "Experiencia").data.map((item, index) => {
