@@ -5,23 +5,21 @@ const qualificationData = [
     title: "education",
     data: [
       {
-        university: "Universidad Galileo De Guatemala",
-        qualification: "Ingeniería en Mecatrónica",
-        years: "feb 2021 - presente",
+        university: "Galileo University of Guatemala",
+        qualification: "Mechatronics Engineering",
+        years: "Feb 2021 - present",
         description: `
-    Formación en ingeniería con un enfoque en la integración de sistemas mecánicos y electrónicos, programación y diseño de sistemas automatizados.
-    Honores: Honor en la asignatura de Programación.
+    Engineering training with a focus on the integration of mechanical and electronic systems, programming, and design of automated systems.
+Honors: Honors in the subject of programming.
   `,
       },
 
       {
-        university: "Colegio El Alamo",
-        qualification: "Bachiller en Computación",
-        years: "Ene. 2019 - oct. 2020",
+        university: "The Alamo School",
+        qualification: "Bachelor in Computer Science",
+        years: "Jan. 2019 - Oct. 2020",
         description: `
-    Preparación integral en ciencias de la computación, incluyendo programación, redes y sistemas operativos.
-    Grado en Bachiller en Computación, Guatemalteco.
-    Honores: Honor al Estudiante Sobresaliente en el área de Computación.
+   Comprehensive preparation in computer science, including programming, networks, and operating systems. Bachelor's Degree in Computer Science, Guatemalan. Honors: Honor to the Outstanding Student in the area of Computing.
   `,
       },
     ],
@@ -37,7 +35,7 @@ const Education = () => {
     <section className="section undefined scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl py-12 px-4">
       <h2 className="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white">
         <Briefcase className="size-8" />
-        Educación
+        Education
       </h2>
       <ol className="relative mt-16">
         {getData(qualificationData, "education").data.map((item, index) => {
