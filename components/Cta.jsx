@@ -1,6 +1,6 @@
 const Cta = () => {
   return (
-    <section 
+    <section
       id="sobre-mi"
       data-section="sobre-mi"
       className="w-full mx-auto container lg:max-w-4xl md:max-w-2xl scroll-m-20">
@@ -20,39 +20,37 @@ const Cta = () => {
           <path d="M6 21v-2a4 4 0 0 1 4 -4h4"></path>
           <path d="M15 19l2 2l4 -4"></path>
         </svg>
-        Sobre mí
+        About me
       </h2>
       <article className="flex flex-col items-center justify-center gap-8 text-gray-950 dark:text-gray-300 md:flex-row">
         <div className="order-2 md:order-1 space-y-4 text-pretty font-mono">
           <p>
-            Me Jefferson pero mis amigos me llaman jeff. Empecé en la
-            programación cuando tenía 16 años. Actualmente me dedico a la
-            realización{" "}
+            My name is Jefferson, but my friends call me Jeff. I started
+            programming when I was 16. I am currently involved in creating{" "}
             <strong className="text-yellow-600 dark:text-yellow-100 font-normal">
-              proyectos freelancer con visión para fundar mi start-up
+              freelance projects with a vision to found my Start-Up
             </strong>
             .
           </p>
           <p>
-            Algunos de mis éxitos incluyen{" "}
+            Some of my successes include{" "}
             <strong className="text-yellow-600 dark:text-yellow-100 font-normal">
-              Desarrollo de una plataforma unificada de componentes y
-              herramientas
+              Development of a unified platform of components and tools
             </strong>
-            , mejorando la eficiencia y flexibilidad en el desarrollo.
+            , improving efficiency and flexibility in development.
           </p>
           <p>
-            Como creador de contenido,{" "}
+            As an independent and dependent content creator,{" "}
             <strong className="text-yellow-600 dark:text-yellow-100 font-normal">
-              cuento con varios reconocimentos tanto educativos como laborales{" "}
+              I have several educational and work-related recognitions.{" "}
               <em className="italic">
                 Premio a la Contribución Destacada, Premio al Mérito Académico y
                 Cum Laude
               </em>{" "}
-              a lo largo de mi carrera
+              Throughout my career
             </strong>
-            . Mi objetivo es mejorar la empleabilidad de la comunidad hispana y
-            el acceso sin restricciones a contenido de calidad.
+            . My goal is to improve community employability and unrestricted
+            access.
           </p>
         </div>
         <img
