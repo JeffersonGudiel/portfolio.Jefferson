@@ -10,7 +10,7 @@ const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
   metadataBase: new URL("https://jeffersongudiel.dev/"),
-  title: "Jefferson gudiel Portfolio",
+  title: "Jefferson Gudiel Portfolio - Full-Stack Developer",
   description:
     "Hire Jefferson for your next project as a Full-Stack Developer and Programmer",
   openGraph: {
