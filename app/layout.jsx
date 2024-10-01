@@ -9,7 +9,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio Jefferson - Full-Stack Developer and Programmer",
+  title: "Jefferson gudiel Portfolio  - Full-Stack Developer and Programmer",
   description: "Hire Jefferson for your next project",
 };
 
