@@ -36,38 +36,6 @@ const projectData = [
     ],
   },
   {
-    image: "/Work/drawing-app.webp",
-    name: "drawing app",
-    Description:
-      "A real-time drawing app is now used in a low-income school and by psychologists, helping students express themselves creatively and improve their emotional well-being.",
-    link: "https://drawing-app-livid-ten.vercel.app/",
-    github: "https://github.com/JeffersonGudiel/drawing-app",
-    altText:
-      "Screenshot of Drawing app, built with Next.js, Tailwind CSS, Javascript and Typescript",
-    imgPaths: [
-      {
-        path: "/about/front-end/typescript.svg",
-        color: "bg-gradient-to-r from-cyan-400 to-cyan-600",
-        category: "TypeScript",
-      },
-      {
-        path: "/about/front-end/nextjs_icon_dark.svg",
-        color: "bg-gradient-to-r from-gray-800 to-gray-900",
-        category: "Next.js",
-      },
-      {
-        path: "/about/front-end/tailwindcss.svg",
-        color: "bg-gradient-to-r from-cyan-400 to-cyan-600",
-        category: "Tailwind CSS",
-      },
-      {
-        path: "/about/front-end/javascript.svg",
-        color: "bg-gradient-to-r from-yellow-400 to-yellow-600",
-        category: "JavaScript",
-      },
-    ],
-  },
-  {
     image: "/Work/weather-app.webp",
     name: "Weather app",
     Description:
@@ -142,6 +110,38 @@ const projectData = [
         path: "/about/database/mongodb.svg",
         color: "bg-gradient-to-r from-green-600 to-green-800",
         category: "MongoDB",
+      },
+    ],
+  },
+  {
+    image: "/Work/drawing-app.webp",
+    name: "drawing app",
+    Description:
+      "A real-time drawing app is now used in a low-income school and by psychologists, helping students express themselves creatively and improve their emotional well-being.",
+    link: "https://drawing-app-livid-ten.vercel.app/",
+    github: "https://github.com/JeffersonGudiel/drawing-app",
+    altText:
+      "Screenshot of Drawing app, built with Next.js, Tailwind CSS, Javascript and Typescript",
+    imgPaths: [
+      {
+        path: "/about/front-end/typescript.svg",
+        color: "bg-gradient-to-r from-cyan-400 to-cyan-600",
+        category: "TypeScript",
+      },
+      {
+        path: "/about/front-end/nextjs_icon_dark.svg",
+        color: "bg-gradient-to-r from-gray-800 to-gray-900",
+        category: "Next.js",
+      },
+      {
+        path: "/about/front-end/tailwindcss.svg",
+        color: "bg-gradient-to-r from-cyan-400 to-cyan-600",
+        category: "Tailwind CSS",
+      },
+      {
+        path: "/about/front-end/javascript.svg",
+        color: "bg-gradient-to-r from-yellow-400 to-yellow-600",
+        category: "JavaScript",
       },
     ],
   },
