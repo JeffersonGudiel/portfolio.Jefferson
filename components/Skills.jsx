@@ -162,11 +162,11 @@ const Skills = () => {
           className: "bg-gradient-to-r from-gray-300 to-gray-500",
           imgPath: "/about/Tools/Github.svg",
         },
-        {
-          name: "VSCode",
-          className: "bg-gradient-to-r from-sky-700 to-sky-900",
-          imgPath: "/about/Tools/vscode.svg",
-        },
+        // {
+        //   name: "VSCode",
+        //   className: "bg-gradient-to-r from-sky-700 to-sky-900",
+        //   imgPath: "/about/Tools/vscode.svg",
+        // },
         {
           name: "Slack",
           className: "bg-gradient-to-r from-violet-500 to-violet-700",
