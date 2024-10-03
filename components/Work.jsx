@@ -75,7 +75,7 @@ const projectData = [
     image: "/Work/task-platform.webp",
     name: "Task platform",
     Description:
-      "Task platform for enterprises, with authentication and user roles, allows employees to manage tasks and projects efficiently.",
+      "Task platform for enterprises, developed as a MERN Stack, including authentication and user roles. This platform allows employees to manage tasks and projects efficiently, facilitating collaboration and tracking progress in real time.",
     link: "https://definite-herring-65.accounts.dev/sign-in",
     github: "https://github.com/JeffersonGudiel/task-platform",
     altText:
@@ -169,7 +169,7 @@ const Work = () => {
         {/* {slider} */}
         <div className="flex justify-center">
           <Swiper
-            className="h-[780px] xl:h-[650px]"
+            className="h-[780px] xl:h-[680px] md:h-[620px]"
             slidesPerView={1}
             breakpoints={{
               640: {
