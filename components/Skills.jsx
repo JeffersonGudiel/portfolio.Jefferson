@@ -105,7 +105,7 @@ const Skills = () => {
         {
           name: "Java",
           className: "bg-gradient-to-r from-blue-700 to-blue-900",
-          imgPath: "/about/Back-end/Java.svg",
+          imgPath: "/about/Back-end/java.svg",
         },
       ],
     },
