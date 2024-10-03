@@ -87,6 +87,26 @@ const Skills = () => {
           className: "bg-gradient-to-r from-sky-500 to-sky-700",
           imgPath: "/about/Back-end/python.svg",
         },
+        {
+          name: "PHP",
+          className: "bg-gradient-to-r from-gray-800 to-gray-500",
+          imgPath: "/about/Back-end/php.svg",
+        },
+        {
+          name: "C#",
+          className: "bg-gradient-to-r from-violet-500 to-violet-700",
+          imgPath: "/about/Back-end/csharp.svg",
+        },
+        {
+          name: "Rust",
+          className: "bg-gradient-to-r from-gray-800 to-gray-900",
+          imgPath: "/about/Back-end/Rust.svg",
+        },
+        {
+          name: "Java",
+          className: "bg-gradient-to-r from-blue-700 to-blue-900",
+          imgPath: "/about/Back-end/Java.svg",
+        },
       ],
     },
     {
