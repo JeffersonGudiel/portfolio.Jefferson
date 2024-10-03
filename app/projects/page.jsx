@@ -106,6 +106,16 @@ const projectData = [
         category: "Prisma",
       },
       {
+        path: "/about/Back-end/Expressjs.svg",
+        color: "bg-gradient-to-r from-gray-300 to-gray-500",
+        category: "Express.js",
+      },
+      {
+        path: "/about/Back-end/nodejs.svg",
+        color: "bg-gradient-to-r from-green-500 to-green-700",
+        category: "Node.js",
+      },
+      {
         path: "/about/database/mongodb.svg",
         color: "bg-gradient-to-r from-green-600 to-green-800",
         category: "MongoDB",
