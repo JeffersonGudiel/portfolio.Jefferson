@@ -1,6 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useEffect } from "react";
+import Lenis from "@studio-freight/lenis";
 import useScrollProgress from "@/hooks/useScrollProgress";
 
 const variants = {
@@ -10,6 +12,24 @@ const variants = {
 
 const Template = ({ children }) => {
   const completion = useScrollProgress();
+
+  useEffect(() => {
+    // Configuración de Lenis
+    const lenis = new Lenis({
+      lerp: 0.1, // Controla la suavidad del scroll (valores más bajos son más suaves)
+      wheelMultiplier: 1, // Controla la velocidad del scroll
+    });
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+
+    // Cleanup al desmontar el componente para evitar fugas de memoria
+    return () => lenis.destroy();
+  }, []);
 
   return (
     <>
