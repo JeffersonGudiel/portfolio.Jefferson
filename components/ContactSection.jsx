@@ -61,17 +61,31 @@ export function ContactSection() {
         <div className="grid md:grid-cols-2 gap-12">
           {/* Left Column */}
           <div>
-            <p className="text-green-600 mb-4">Contact Us</p>
+            <p className="text-gray-900 dark:text-white mb-4 text-2xl font-semibold glow">
+              Contact Me!
+            </p>
+
+            <style jsx>{`
+              .glow {
+                text-shadow: 0 0 10px rgba(0, 255, 255, 0.8),
+                  0 0 20px rgba(0, 255, 255, 0.6),
+                  0 0 30px rgba(0, 255, 255, 0.4);
+              }
+              .dark .glow {
+                text-shadow: 0 0 5px rgba(255, 255, 255, 0.7),
+                  0 0 10px rgba(255, 255, 255, 0.5),
+                  0 0 15px rgba(255, 255, 255, 0.3);
+              }
+            `}</style>
             <h1 className="text-4xl md:text-5xl font-bold mb-6 dark:text-white">
-              Get in Touch.
+              "Commitment to Quality and Punctuality"
               <br />
-              Contact Information
-              <br />
-              and Support.
+              Contact me to learn more about your project.
             </h1>
             <p className="text-gray-600 mb-12 dark:text-gray-300">
-              Your Trusted Partner in Data Protection with Cutting-Edge
-              Solutions for Comprehensive Data Security.
+              "I provide high-quality services, ensuring constant communication,
+              timely delivery and ongoing support. I would be delighted to learn
+              more about your project. Please feel free to contact me."
             </p>
 
             <div className="grid sm:grid-cols-2 gap-8">
@@ -91,12 +105,20 @@ export function ContactSection() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-semibold mb-2 dark:text-white">
-                  24/7 Customer Support
+                  Effective Communication and Support.
                 </h3>
-                <p className="text-gray-600 dark:text-gray-300">
-                  Our dedicated support team is available 24/7 to assist you
-                  with any issues or questions you may have.
-                </p>
+                <ul className="text-gray-600 dark:text-gray-300">
+                  <li>
+                    <strong>Clear Communication:</strong>"I am committed to
+                    maintaining clear and transparent communication, ensuring
+                    that your needs and expectations are adequately met."
+                  </li>
+                  <li>
+                    <strong>24/7 Support:</strong> I am available to provide
+                    assistance and resolve any concerns, ensuring constant and
+                    timely attention.
+                  </li>
+                </ul>
               </div>
               <div>
                 <div className="bg-[#a6a4a495] w-12 h-12 rounded-full flex items-center justify-center mb-4">
@@ -114,12 +136,21 @@ export function ContactSection() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-semibold mb-2 dark:text-white">
-                  Self-help resources
+                  Commitment to Quality and Punctuality
                 </h3>
-                <p className="text-gray-600 dark:text-gray-300">
-                  Access our extensive knowledge base for self-help resources,
-                  including step-by-step guides.
-                </p>
+                <ul className="text-gray-600 dark:text-gray-300">
+                  <li>
+                    <strong>Reliability:</strong> As a freelance professional, I
+                    am committed to providing high-quality services and
+                    maintaining clear and consistent communication with my
+                    clients.
+                  </li>
+                  <li>
+                    <strong>Punctuality:</strong> I value my clients' time and
+                    strive to meet established deadlines, ensuring timely and
+                    efficient deliveries.
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
